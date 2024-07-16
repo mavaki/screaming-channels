@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="ScreamingChannels",
-    version="2.0",
+    version="3.0",
     packages=find_packages(),
-    python_requires=">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*",
+    python_requires=">=3.10",
     entry_points={
         "console_scripts": [
             "sc-experiment = screamingchannels.reproduce:cli",
@@ -12,26 +12,26 @@ setup(
         ]
     },
     install_requires=[
-        "click==6.7",
-        "numpy==1.22.0",
-        "scipy==1.1.0",
-        "pyserial==3.4",
-        "matplotlib==2.2.3",
+        "click==8.1.7",
+        "numpy==2.0.0",
+        "scipy==1.14.0",
+        "pyserial==3.5",
+        "matplotlib==3.9.1",
         "enum34",
-        "pmt==0.0.3",
-        "pyts==0.9.0",
-        "llvmlite==0.30.0",
-        "numba==0.46.0",
-        "statsmodels==0.8.0",
-        "pandas==0.22.0",
-        "scikit-learn==0.20.3",
-        "future==0.16.0",
-        "pycryptodome==3.9.7",
-        "pyzmq==16.0.2",
-        "peakutils==1.3.2",
-        "tabulate==0.8.1",
-        "kiwisolver==1.1.0",
-        "pyparsing==2.4.7"
+        "pmt==0.0.4",
+        "pyts==0.13.0",
+        "llvmlite==0.43.0",
+        "numba==0.60.0",
+        "statsmodels==0.14.2",
+        "pandas==2.2.2",
+        "scikit-learn==1.5.1",
+        "future==1.0.0",
+        "pycryptodome==3.20.0",
+        "pyzmq==26.0.3",
+        "peakutils==1.3.5",
+        "tabulate==0.9.0",
+        "kiwisolver==1.4.5",
+        "pyparsing==3.1.2"
 
 
 # to use system packages

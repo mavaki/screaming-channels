@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 import numpy as np
 # from scipy import signal
@@ -117,3 +117,5 @@ def generic_load(data_path,name,number,wstart=0,wend=0, average=True,
 
 if __name__ == "__main__":
     pass
+
+

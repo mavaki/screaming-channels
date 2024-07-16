@@ -21,7 +21,8 @@ sc-attack --norm --data-path $TRACES_CHES20/ches20/hackrf_10cm/template_tx_500/ 
 sc-attack --plot --norm --data-path $TRACES_CHES20/ches20/hackrf_10cm/template_O3_tx_500/ --start-point 0 --end-point 0 --num-traces 10 cra
 
 # Figure 15b
-python2.7 src/screamingchannels/sc-compare.py --num-pois 1 --plot /tmp/O3_100000 /tmp/O3_100000/ compare
+# changed to python3
+python3 src/screamingchannels/sc-compare.py --num-pois 1 --plot /tmp/O3_100000 /tmp/O3_100000/ compare
 
 # Table 8
 python << END
